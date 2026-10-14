@@ -627,7 +627,7 @@ fn generateSystemDefines(comp: *Compilation, w: *Io.Writer) !void {
                 .{ .avx512fp16, "__AVX512FP16__" },
                 .{ .avx512dq, "__AVX512DQ__" },
                 .{ .avx512bitalg, "__AVX512BITALG__" },
-                .{ .avx512bmm, "__AVX512BMM__" },
+                //.{ .avx512bmm, "__AVX512BMM__" },
                 .{ .avx512bw, "__AVX512BW__" },
 
                 .{ .avx512vl, "__AVX512VL__" },
